@@ -18,4 +18,4 @@ var book = new Book('Clean Code', 'Robert', '2011');
 
 Book.prototype.getSummary = function myFucntion() {
     return `${this.title} was written by ${this.author} in ${this.year}`;
- }
+}
