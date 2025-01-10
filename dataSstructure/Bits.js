@@ -40,7 +40,7 @@ myFunction(-1); // true
 myFunction(NaN); // false
 myFunction(new Number(NaN)); // true (objeto é sempre true)
 myFunction({}); // true (objeto é sempre true)
-var obj = { name: 'John' };
+var obj = { name: 'John' }; 
 myFunction(obj); // true
 myFunction(obj.name); // true
 myFunction(obj.age); // age (propriedade não existe)
