@@ -37,7 +37,7 @@ if (month === 1) {
     console.log('March');
 }
 
-var month = 'May';
+var month = 2;
 switch (month) {
     case 1:
         console.log('January');
