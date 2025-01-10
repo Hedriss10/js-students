@@ -55,3 +55,14 @@ switch (month) {
         console.log('Invalid month');
         break;
 }
+
+
+function myFunction() {
+    console.log('myFunction with for');
+    var i = 0;
+    for (var i = 0; i < 10; i++) {
+        console.log(i);
+    }
+};
+
+myFunction();
