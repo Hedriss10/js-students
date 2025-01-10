@@ -65,4 +65,22 @@ function myFunction() {
     }
 };
 
-myFunction();
+
+function myFucntionDoWhile () {
+    console.log('myFunction with do while');
+    var i = 0;
+    do {
+        console.log(i);
+        i++;
+    } while (i < 20);
+};
+
+function myFucntionWhile(){
+    var i = 0;
+    while (i < 10){
+        console.log(i);
+        i++;
+    }
+}
+myFucntionDoWhile();
+myFucntionWhile();
