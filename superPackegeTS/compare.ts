@@ -1,17 +1,14 @@
-interface Comparable {
-    compareTo(other: Comparable): number;
+interface Comparable<T> {
+    compareTo(other: T): number
 }
 
-
-export class Person implements Comparable {
-    constructor(public name: string, public age: number) { }
-    compareTo(other: Comparable): number {
-        if (this.age < other.age) {
-            return -1;
+export class Myobject implements Comparable<Myobject> {
+    age: number;
+    compareTo(other: Myobject): number {
+        if (this.age === other.age) {
+            return 0;
         }
-        if (this.age > other.age) {
-            return 1;
-        }
-        return 0;
+        return this.age > other.age ? 1 : -1;
     }
-}
+
+};
