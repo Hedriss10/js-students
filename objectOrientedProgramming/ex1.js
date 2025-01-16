@@ -11,12 +11,10 @@ class Pearson{
         this.email = email 
     }
 
-    // get age 
+    // get age     
     getAge(){
-        if (this.age < 18){
-            return 'Age not valid';
-        }
-    }
+        return this.age;
+    }    
 }
 
 
