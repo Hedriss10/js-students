@@ -12,12 +12,15 @@ const language = 'JavaScript';
 Created interface
 */
 
-interface Person {
-    name: string;
-    age: number;
-}
+// interface Person {
+//     name: string;
+//     age: number;
+// }
 
-const printName = function (person: Person) {
-    console.log(person.name);
-}
+// const printName = function (person: Person) {
+//     console.log(person.name);
+// }
 
+
+
+console.log(age)
