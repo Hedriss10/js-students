@@ -1,25 +1,24 @@
-# Data Structures with JavaScript
+### Trabalhando com arrays JS
 
-The concept of data structures with `JavaScript` follows the same principles as in any programming language. In fact, `JavaScript` is a fully dynamic language, not strongly typed, according to my learning experience.
+Podemos acresentar um novo elemento dentro da lista chamando o metedo `push`, onde é escrito ma api do `javascript`, com isso podemos acresentar um novo elemento.
 
-**True or False:**  
-In most programming languages, true and false are based on boolean values. However, in `JavaScript`, this is a more complicated concept to understand, depending on the other data being analyzed:
+**Exemplo:**
 
 ```js
-// Type of value + Result
-console.log(typeof undefined) // type of undefined
-console.log(typeof null) // typeof object
-console.log(typeof false) // typeof boolean
-console.log(typeof '') // typeof string
-console.log(typeof myFunction) // typeof function
-myFunction(new String('')); // true (object is always true)
-myFunction(1); // true
-myFunction(-1); // true
-myFunction(NaN); // false
-myFunction(new Number(NaN)); // true (object is always true)
-myFunction({}); // true (object is always true)
-var obj = { name: 'John' }; // name obj
-myFunction(obj); // true
-myFunction(obj.name); // true
-myFunction(obj.age); // age (property does not exist)
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
+numbers.push(10);
+
+/// printando o numbers
+console.log("Verificando o novo array", numbers);
+```
+
+**Resultado:**
+
+```js
+
+Verificando o novo array [
+  1, 2, 3, 4,  5,
+  6, 7, 8, 9, 10
+]
 ```
