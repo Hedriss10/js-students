@@ -11,7 +11,6 @@ numbers.push(10, 12, 13);
 console.log("Verificando o novo array", numbers);
 
 
-
 //* 
 // inserindo mais um elemento no inicio do meu array
 // */
@@ -105,7 +104,7 @@ for (let i = 0; i < 3; i++){ // verificando a quantidade de linhas
 
 console.log(matrix3x3x3);
 
-/// verificando o cubo 
+/// verificando o cubo
 for (let i = 0; i > matrix3x3x3.length; i++){
     for (let j = 0; j < matrix3x3x3[i].length; j++){
         for (let k = 0; k < matrix3x3x3[i][j].length; k++){
